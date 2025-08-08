@@ -1,2 +1,15 @@
-# Personal-portfolio-
-A responsive personal portfolio website built with HTML, CSS, and JavaScript to showcase my projects and skills.
+# Personal-portfolio- 
+
+Minimal, responsive portfolio built with HTML, CSS, and JavaScript — no frameworks, no fluff.
+
+## 🚀 Demo
+🔗 https://kunalchaturvedi87.github.io/Personal-portfolio/
+
+## 🛠 Built With
+- HTML5
+- CSS3
+- Vanilla JS
+
+## 👋 Contact
+kunalchaturvedi647@gmail.com  
+[@kunal_8790](https://twitter.com/kunal_8790)
