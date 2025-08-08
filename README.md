@@ -3,7 +3,7 @@
 Minimal, responsive portfolio built with HTML, CSS, and JavaScript — no frameworks, no fluff.
 
 ## 🚀 Demo
-🔗 https://kunalchaturvedi87.github.io/personal-portfolio/
+🔗 https://kunalchaturvedi87.github.io/personal-portfolio-/
 
 ## 🛠 Built With
 - HTML5
