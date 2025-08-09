@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kunal Chaturvedi | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #121212;
+      color: #f0f0f0;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #1f1f1f;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #222;
+      padding: 0.5rem;
+      gap: 1.5rem;
+    }
+
+    nav a {
+      color: #f0f0f0;
+      text-decoration: none;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    nav a:hover {
+      color: #00bcd4;
+    }
+
+    .section {
+      display: none;
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .section.active {
+      display: block;
+    }
+
+    .project {
+      background: #1e1e1e;
+      padding: 1rem;
+      margin-top: 1rem;
+      border-radius: 8px;
+    }
+
+    ul {
+      list-style: square;
+      padding-left: 1.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #1f1f1f;
+      color: #888;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kunal Chaturvedi</h1>
+    <p>Web Developer | AI & Automation Enthusiast</p>
+  </header>
+
+  <nav>
+    <a onclick="showSection('about')">About</a>
+    <a onclick="showSection('projects')">Projects</a>
+    <a onclick="showSection('experience')">Experience</a>
+    <a onclick="showSection('skills')">Skills</a>
+    <a onclick="showSection('contact')">Contact</a>
+  </nav>
+
+  <section id="about" class="section active">
+    <h2>About Me</h2>
+    <p>
+      I’m a web developer driven by curiosity and the thrill of making things work—whether that’s crafting smooth user interfaces, wiring up APIs, or experimenting with automation tools. 
+      Always exploring new technologies, I enjoy turning ideas into working products that are both functional and elegant.
+    </p>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Quizzy – Section-Wise Quiz App</h3>
+      <p>
+        A JavaScript-powered quiz application designed for focused learning. Users can select categories and attempt questions in a streamlined interface, with instant feedback and score tracking. 
+        Built with HTML, CSS, and JavaScript, Quizzy simulates a mini-exam environment—perfect for self-testing before the real deal. 
+        <a href="https://kunalchaturvedi87.github.io/quizzy-/" target="_blank">Live Demo</a>
+      </p>
+    </div>
+    <div class="project">
+      <h3>Weekly Planner – Smart Scheduling App</h3>
+      <p>
+        A productivity tool that helps users plan and visualize their week at a glance. Built using HTML, CSS, and JavaScript, with a sleek interface for adding, editing, and removing tasks. 
+        Designed for clarity and speed, it’s like having a minimalist command center for your life. 
+        <a href="#" target="_blank">Live Demo</a>
+      </p>
+    </div>
+    <div class="project">
+      <h3>Smart Portfolio Website</h3>
+      <p>Responsive personal website built with HTML, CSS, and JS. Mobile-friendly with smooth design.</p>
+    </div>
+    <div class="project">
+      <h3>Automation Script</h3>
+      <p>Used Node.js to automate form filling and data scraping from websites.</p>
+    </div>
+  </section>
+
+  <section id="experience" class="section">
+    <h2>Experience</h2>
+    <p>
+      <strong>Freelance Web Development</strong> – Designed and deployed websites for small businesses, focusing on responsive design, usability, and performance optimization. Also worked on automation scripts to streamline client workflows.
+    </p>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Node.js, GitHub, Postman</li>
+      <li>Basics of ML & AI APIs</li>
+      <li>Workflow Automation</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:kunalchaturvedi647@gmail.com">kunalchaturvedi647@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/kunalchaturvedi87" target="_blank">github.com/kunalchaturvedi87</a></p>
+    <p>Twitter: <a href="https://x.com/Kunal_8790?t=FkXPSRni5upR-xp8iGUT5w&s=09" target="_blank">@Kunal_8790</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Kunal Chaturvedi</p>
+  </footer>
+
+  <script>
+    function showSection(id) {
+      const sections = document.querySelectorAll('.section');
+      sections.forEach(section => section.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+    }
+  </script>
+</body>
+</html>
